@@ -3,8 +3,10 @@ NADIA SERRULLA - PORTFOLIO GLOBAL 2026
 =========================================================*/
 
 @font-face {
-    font-family: "Gulax";
-    src: url("../Fonts/Gulax-Regular.woff2") format("woff2");
+    font-family: 'Gulax';
+    src: url('Gulax-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
     font-display: swap;
 }
 
