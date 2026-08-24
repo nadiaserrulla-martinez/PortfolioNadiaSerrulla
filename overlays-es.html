@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overlays & Streamings| Nadia Serrulla</title>
+    <meta name="description" content="Proyectos de Branding e Identidad Visual por Nadia Serrulla.">
+    <meta name="theme-color" content="#1E22AA">
+    <meta name="author" content="Nadia Serrulla">
+    <link rel="icon" type="image/png" href="Img/Logotipo/Logo grafico.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS Global -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- PANTALLA DE CARGA -->
+    <div id="loading-screen" class="hidden">
+        <div class="loading-noise"></div>
+        <div class="loading-stars">
+            <span class="star s1">★</span>
+            <span class="star s2">☆</span>
+            <span class="star s3">★</span>
+            <span class="star s4">☆</span>
+            <span class="star s5">★</span>
+            <span class="star s6">✦</span>
+        </div>
+        <div class="loading-content">
+            <h2 id="loading-title">CARGANDO...</h2>
+            <div class="loading-bar-container">
+                <div class="loading-bar-fill"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- HEADER -->
+    <header id="header" class="header-inner-page">
+        <div class="header-container">
+            <a href="Index-es-DG.html" class="logo">
+                <img src="Img/Logotipo/logo diseño grafico.png" alt="Logotipo Nadia Serrulla">
+            </a>
+            <nav class="menu">
+                <div class="lang-switcher">
+                    <a href="overlays-es.html" class="active">ES</a>
+                    <span>/</span>
+                    <a href="overlays-en.html">EN</a>
+                </div>
+                <a href="CV-es-DG.html" class="contact-button">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- CABECERA DE LA CATEGORÍA -->
+    <section class="category-hero" data-reveal>
+        <div class="category-hero-container">
+            <span class="section-tag">SECCIÓN 02 / PROYECTOS</span>
+            <h1>Overlays & <span>Streamings</span></h1>
+            <p>Una selección de proyectos centrados en la creación de overlays y elementos de streamings.</p>
+        </div>
+    </section>
+
+    <!-- GALERÍA DINÁMICA EN ÓRBITA -->
+    <section class="spencer-orbit-section" data-reveal>
+        <div class="spencer-orbit-viewport" id="orbit-viewport">
+            
+            <!-- PROYECTO 1 -->
+            <article class="spencer-orbit-card">
+                <a href="#" class="spencer-card-inner" data-project="Mareabrumosa">
+                    <div class="spencer-card-image">
+                        <img src="Img/Proyectos/Overlay/marea/marea_01.png" alt="Overlay Marea Brumosa mockup">
+                    </div>
+                    <div class="spencer-card-badge">Overlay Marea Brumosa</div>
+                </a>
+            </article>
+
+            <!-- PROYECTO 2 -->
+            <article class="spencer-orbit-card">
+                <a href="#" class="spencer-card-inner" data-project="AC">
+                    <div class="spencer-card-image">
+                        <img src="Img/Proyectos/Overlay/AC/AC_01.png" alt="Overlay Animal Crossing New Horizon">
+                    </div>
+                    <div class="spencer-card-badge">Overlay Animal Crossing New Horizon</div>
+                </a>
+            </article>
+
+             <!-- PROYECTO 3 -->
+            <article class="spencer-orbit-card">
+                <a href="#" class="spencer-card-inner" data-project="BG3">
+                    <div class="spencer-card-image">
+                        <img src="Img/Proyectos/Overlay/BG3/BG3_01.png" alt="Overlay Baldur's Gate 3">
+                    </div>
+                    <div class="spencer-card-badge">Overlay Baldur's Gate 3</div>
+                </a>
+            </article>
+            
+    </section>
+
+    <!-- MODAL POPUP FLOTANTE DE PROYECTO -->
+    <div id="project-modal" class="modal-overlay" aria-hidden="true">
+        <div class="modal-stars-background">
+            <span class="m-star ms1">★</span>
+            <span class="m-star ms2">✦</span>
+            <span class="m-star ms3">☆</span>
+            <span class="m-star ms4">★</span>
+            <span class="m-star ms5">✦</span>
+            <span class="m-star ms6">☆</span>
+            <span class="m-star ms7">★</span>
+            <span class="m-star ms8">✦</span>
+        </div>
+
+        <div class="modal-container">
+            <button class="modal-close-btn" id="modal-close" aria-label="Cerrar modal">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+            <div class="modal-content">
+                <h2 id="modal-title" class="modal-title"></h2>
+                <p id="modal-subtitle" class="modal-subtitle"></p>
+                <div id="modal-gallery" class="modal-gallery-grid"></div>
+            </div>
+        </div>
+    </div>
+
+<!-- CONTENEDOR FLOTANTE PARA AMPLIACIÓN HD (LIGHTBOX) -->
+    <div id="image-lightbox" class="lightbox-overlay" aria-hidden="true">
+        <span class="lightbox-close">&times;</span>
+        <img id="lightbox-img" src="" alt="Imagen ampliada">
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <p class="footer-brand">Gràfixia</p>
+                <p>© 2026 Nadia Serrulla · Todos los derechos reservados.</p>
+            </div>
+            <div class="footer-right">
+                <a href="tel:+34640135856" class="phone-link">+34 640 13 58 56</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- CURSOR PERSONALIZADO -->
+    <div id="cursor">
+        <img src="Img/Cursor/cursor1.png" alt="Cursor personalizado">
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMMUNICATION CAMPAIGNS | Nadia Serrulla</title>
+    <meta name="description" content="Communication Campaigns projects by Nadia Serrulla.">
+    <meta name="theme-color" content="#1E22AA">
+    <meta name="author" content="Nadia Serrulla">
+    <link rel="icon" type="image/png" href="Img/Logotipo/Logo grafico.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- LOADING SCREEN -->
+    <div id="loading-screen" class="hidden">
+        <div class="loading-noise"></div>
+        <div class="loading-stars">
+            <span class="star s1">★</span>
+            <span class="star s2">☆</span>
+            <span class="star s3">★</span>
+            <span class="star s4">☆</span>
+            <span class="star s5">★</span>
+            <span class="star s6">✦</span>
+        </div>
+        <div class="loading-content">
+            <h2 id="loading-title">LOADING...</h2>
+            <div class="loading-bar-container">
+                <div class="loading-bar-fill"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- HEADER -->
+    <header id="header" class="header-inner-page">
+        <div class="header-container">
+            <a href="Index-en-DG.html" class="logo">
+                <img src="Img/Logotipo/logo diseño grafico.png" alt="Nadia Serrulla Logo">
+            </a>
+            <nav class="menu">
+                <div class="lang-switcher">
+                    <a href="campanas-comunicacion-es.html">ES</a>
+                    <span>/</span>
+                    <a href="campanas-comunicacion-en.html" class="active">EN</a>
+                </div>
+                <a href="CV-en-DG.html" class="contact-button">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- CATEGORY HEADER -->
+    <section class="category-hero" data-reveal>
+        <div class="category-hero-container">
+            <span class="section-tag">SECTION 02 / PROJECTS</span>
+            <h1>COMMUNICATION <span>CAMPAIGNS</span></h1>
+            <p>A selection of projects focused on creating communication campaigns.</p>
+        </div>
+    </section>
+
+    <!-- DYNAMIC ORBIT GALLERY -->
+    <section class="spencer-orbit-section" data-reveal>
+        <div class="spencer-orbit-viewport" id="orbit-viewport">
+            
+            <!-- PROJECT 1 -->
+            <article class="spencer-orbit-card">
+                <a href="#" class="spencer-card-inner" data-project="Lambda">
+                    <div class="spencer-card-image">
+                        <img src="Img/Proyectos/Campaña/Lambda/L_2.png" alt="LAMBDA">
+                    </div>
+                    <div class="spencer-card-badge">LAMBDA</div>
+                </a>
+            </article>
+
+            <!-- PROJECT 2 -->
+            <article class="spencer-orbit-card">
+                <a href="#" class="spencer-card-inner" data-project="Nits">
+                    <div class="spencer-card-image">
+                        <img src="Img/Proyectos/Campaña/Nits_imagen derecha.png" alt="Nits de Cinema">
+                    </div>
+                    <div class="spencer-card-badge">NITS DE CINEMA</div>
+                </a>
+            </article>
+            
+    </section>
+
+    <!-- FLOATING PROJECT POPUP MODAL -->
+    <div id="project-modal" class="modal-overlay" aria-hidden="true">
+        <div class="modal-stars-background">
+            <span class="m-star ms1">★</span>
+            <span class="m-star ms2">✦</span>
+            <span class="m-star ms3">☆</span>
+            <span class="m-star ms4">★</span>
+            <span class="m-star ms5">✦</span>
+            <span class="m-star ms6">☆</span>
+            <span class="m-star ms7">★</span>
+            <span class="m-star ms8">✦</span>
+        </div>
+
+        <div class="modal-container">
+            <button class="modal-close-btn" id="modal-close" aria-label="Close modal">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+            <div class="modal-content">
+                <h2 id="modal-title" class="modal-title"></h2>
+                <p id="modal-subtitle" class="modal-subtitle"></p>
+                <div id="modal-gallery" class="modal-gallery-grid"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FLOATING CONTAINER FOR HD ENLARGEMENT (LIGHTBOX) -->
+    <div id="image-lightbox" class="lightbox-overlay" aria-hidden="true">
+        <span class="lightbox-close">&times;</span>
+        <img id="lightbox-img" src="" alt="Enlarged image">
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <p class="footer-brand">Gràfixia</p>
+                <p>© 2026 Nadia Serrulla · All rights reserved.</p>
+            </div>
+            <div class="footer-right">
+                <a href="tel:+34640135856" class="phone-link">+34 640 13 58 56</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- CUSTOM CURSOR -->
+    <div id="cursor">
+        <img src="Img/Cursor/cursor1.png" alt="Custom cursor">
+    </div>
+
+    <!-- JAVASCRIPT -->
+    <script src="js/script-en.js"></script>
+</body>
+</html>

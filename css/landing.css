@@ -1,0 +1,144 @@
+/*=========================================================
+ESTILOS LANDING PAGE / PANTALLA PARTIDA SIN CÍRCULOS NI DEGRADADOS
+=========================================================*/
+.landing-body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: var(--background);
+}
+
+.split-landing-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.split-half {
+    position: relative;
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    overflow: hidden;
+    transition: flex 0.6s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+/* Mismo color plano y sólido para ambas mitades sin ningún tipo de degradado */
+.split-graphic,
+.split-illustration {
+    background-color: var(--primary);
+}
+
+/* Imagen de fondo en baja opacidad */
+.split-bg-image {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.15;
+    transition: transform 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+/* Rutas de las imágenes de fondo para cada mitad */
+.split-graphic .split-bg-image {
+    background-image: url('../Img/Proyectos/Branding/BITbyBIT/BIT_05.png');
+}
+
+.split-illustration .split-bg-image {
+    background-image: url('../Img/Landing/fondo-ilustracion.png');
+}
+
+/* Capa de tinte azulado sólido sin degradados para unificar las imágenes */
+.split-tint-overlay {
+    position: absolute;
+    inset: 0;
+    background-color: var(--primary);
+    opacity: 0.65;
+    transition: opacity 0.4s ease;
+}
+
+.split-content {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Logotipo directo sin el contenedor circular */
+.landing-logo-img {
+    width: 180px;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    filter: brightness(1);
+    transition: transform 0.4s cubic-bezier(0.22, 0.61, 0.36, 1), filter 0.4s ease;
+}
+
+/* Tipografía y textos inferiores de cada sección */
+.split-title-text {
+    font-family: "Gulax", sans-serif;
+    font-size: 1.4rem;
+    color: #ffffff;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    max-width: 320px;
+    line-height: 1.2;
+    transition: color 0.4s ease, transform 0.4s ease;
+}
+
+/* Efectos interactivos al pasar el ratón */
+.split-landing-container:hover .split-half:not(:hover) {
+    flex: 0.7;
+}
+
+.split-half:hover {
+    flex: 1.3;
+}
+
+.split-half:hover .split-bg-image {
+    transform: scale(1.06);
+}
+
+.split-half:hover .landing-logo-img {
+    transform: scale(1.1);
+    filter: brightness(0) invert(1);
+}
+
+.split-half:hover .split-title-text {
+    color: var(--secondary);
+    transform: translateY(4px);
+}
+
+/* Adaptación para dispositivos móviles */
+@media (max-width: 992px) {
+    .split-landing-container {
+        flex-direction: column;
+        height: auto;
+        min-height: 100vh;
+        overflow-y: auto;
+    }
+
+    .split-half {
+        height: 50vh;
+        width: 100%;
+    }
+
+    .landing-logo-img {
+        width: 120px;
+    }
+
+    .split-title-text {
+        font-size: 1.1rem;
+        max-width: 260px;
+    }
+}
