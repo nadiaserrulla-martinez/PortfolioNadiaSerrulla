@@ -933,6 +933,10 @@ function initGalleryHover() {
 ÓRBITA ARRASTRABLE
 =========================================================*/
 function initSpencerOrbit() {
+    if (window.innerWidth <= 768) {
+        return;
+    }
+
     const viewport = document.getElementById("orbit-viewport") || document.querySelector(".spencer-orbit-viewport");
     const cards = document.querySelectorAll(".spencer-orbit-card");
 
@@ -1235,9 +1239,7 @@ function initLightbox() {
     });
 }
 
-/*=========================================================
-ANIMACIÓN CV: CÍRCULOS DE HABILIDADES
-=========================================================*/
+
 function initCVAnimation() {
     const circles = document.querySelectorAll('.circle-item');
     if (!circles.length) return;
@@ -1266,3 +1268,17 @@ function initCVAnimation() {
         circleObserver.observe(circle);
     });
 }
+
+// Limpiador automático para dispositivos móviles
+window.addEventListener('resize', () => {
+    if (window.innerWidth <= 768) {
+        const tarjetas = document.querySelectorAll('.spencer-orbit-card');
+        tarjetas.forEach(tarjeta => {
+            tarjeta.style.transform = '';
+            tarjeta.style.zIndex = '';
+            tarjeta.style.opacity = '';
+            tarjeta.style.pointerEvents = '';
+            tarjeta.style.visibility = '';
+        });
+    }
+});
