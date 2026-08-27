@@ -40,40 +40,43 @@ const PROJECTS_DATA = {
                 </div>
             </div>
 
-            <figure class="modal-featured-media">
-                <img src="Img/Proyectos/Branding/BITbyBIT/BIT_01.png" alt="Negative logo">
-                <figcaption class="modal-caption">Negative logo.</figcaption>
-            </figure>
+           <figure class="modal-featured-media">
+    <img src="Img/Proyectos/Branding/BITbyBIT/BIT_01.png" alt="Negative logo">
+    <figcaption class="modal-caption">Negative logo.</figcaption>
+</figure>
 
-            <div class="modal-project-details">
-                <p>Bit by Bit is the <strong>rebranding of the Museo del Recreativo</strong>, a proposal created to evolve the <strong>historical preservation of video games</strong> into a living, interactive experience. The project updates the institution's identity to <strong>bridge the nostalgia of traditional arcades with contemporary gaming trends</strong>. Through playful naming that speaks to technological language and a new brand architecture, the proposal integrates tournaments, current-generation consoles, and dynamic exhibitions that combine <strong>the past and present of the industry</strong>.</p>
-                
-                <p>To drive this transformation, I led the rebranding strategy and the comprehensive design of the <strong>new brand experience</strong>. This ranges from the <strong>conceptualization of the naming and visual identity</strong> to the development of the <strong>graphic system for physical exhibitions, interactive spaces, and the museum's communication materials</strong>.</p>
+<div class="modal-project-details">
+    <p>Bit by Bit is the <strong>rebranding of the Museo del Recreativo</strong>, a proposal created to evolve the <strong>historical preservation of video games</strong> into a living, interactive experience. The project updates the institution's identity to <strong>bridge the nostalgia of traditional arcades with contemporary gaming trends</strong>. Through playful naming that speaks to technological language and a new brand architecture, the proposal integrates tournaments, current-generation consoles, and dynamic exhibitions that combine <strong>the past and present of the industry</strong>.</p>
+    
+    <p>To drive this transformation, I led the rebranding strategy and the comprehensive design of the <strong>new brand experience</strong>. This ranges from the <strong>conceptualization of the naming and visual identity</strong> to the development of the <strong>graphic system for physical exhibitions, interactive spaces, and the museum's communication materials</strong>.</p>
 
-                <p>Beyond the visual redesign, this work demonstrates my ability to reposition a cultural entity, transforming a static collection of objects into a dynamic entertainment space capable of engaging an intergenerational audience.</p>
-                
-                <div class="modal-results">
-                    <h4>Key results:</h4>
-                    <ul>
-                        <li>Brand strategy and naming development (Bit by Bit).</li>
-                        <li>Visual identity system and adaptive graphic language.</li>
-                        <li>Conceptualization of the visitor experience and interactive areas.</li>
-                        <li>Signage and graphic materials for the exhibition space.</li>
-                        <li>Promotional assets for communication campaigns and events.</li>
+    <p>Beyond the visual redesign, this work demonstrates my ability to reposition a cultural entity, transforming a static collection of objects into a dynamic entertainment space capable of engaging an intergenerational audience.</p>
+    
+    <div class="modal-results">
+        <h4>Key results:</h4>
+        <ul>
+            <li>Brand strategy and naming development (Bit by Bit).</li>
+            <li>Visual identity system and adaptive graphic language.</li>
+            <li>Conceptualization of the visitor experience and interactive areas.</li>
+            <li>Signage and graphic materials for the exhibition space.</li>
+            <li>Promotional assets for communication campaigns and events.</li>
+        </ul>
+    </div>
+</div>
                     </ul>
                 </div>
             </div>
         `,
         images: [
-            { src: "Img/Proyectos/Branding/BITbyBIT/BIT_03.png", full: "Img/Proyectos/Branding/BITbyBIT/BIT_03.png", caption: "BIT by BIT merchandise." },
-            { src: "Img/Proyectos/Branding/BITbyBIT/BIT_04.png", full: "Img/Proyectos/Branding/BITbyBIT/BIT_04.png", caption: "BIT by BIT brochure." },
-            { src: "Img/Proyectos/Branding/BITbyBIT/BIT_05.png", full: "Img/Proyectos/Branding/BITbyBIT/BIT_05.png", caption: "BIT by BIT billboard." },
-            { src: "Img/Proyectos/Branding/BITbyBIT/BIT_06.png", full: "Img/Proyectos/Branding/BITbyBIT/BIT_06.png", caption: "BIT by BIT website homepage." },
-            { src: "Img/Proyectos/Branding/BITbyBIT/BIT_07.png", full: "Img/Proyectos/Branding/BITbyBIT/BIT_07.png", caption: "Machine section on the BIT by BIT website." },
+     { src: "Img/Proyectos/Branding/BITbyBIT/BIT_03.png", full: "Img/Proyectos/Branding/BITbyBIT/BIT_03.png", caption: "BIT by BIT merchandise." },
+{ src: "Img/Proyectos/Branding/BITbyBIT/BIT_04.png", full: "Img/Proyectos/Branding/BITbyBIT/BIT_04.png", caption: "BIT by BIT brochure." },
+{ src: "Img/Proyectos/Branding/BITbyBIT/BIT_05.png", full: "Img/Proyectos/Branding/BITbyBIT/BIT_05.png", caption: "BIT by BIT billboard." },
+{ src: "Img/Proyectos/Branding/BITbyBIT/BIT_06.png", full: "Img/Proyectos/Branding/BITbyBIT/BIT_06.png", caption: "BIT by BIT website homepage." },
+{ src: "Img/Proyectos/Branding/BITbyBIT/BIT_07.png", full: "Img/Proyectos/Branding/BITbyBIT/BIT_07.png", caption: "Machine section on the BIT by BIT website." },
         ]
     },
     Lyngard: {
-        title: "LYNGÅRD",
+      title: "LYNGÅRD",
         pdf: "PDFs/Manual_Identidad_Lyngard.pdf",
         pdfTitle: "Brand Guidelines - Lyngård [PDF]",
         subtitle: `
@@ -123,89 +126,77 @@ const PROJECTS_DATA = {
             </div>
         `,
         images: [
-            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_0.png", full: "Img/Proyectos/Branding/Lyngard/L_0.png", caption: "Untextured logo." },
-            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_01.png", full: "Img/Proyectos/Branding/Lyngard/L_01.png", caption: "Isotype." },
-            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_1.png", full: "Img/Proyectos/Branding/Lyngard/L_1.png", caption: "Main image for the Kickstarter crowdfunding campaign." },
-            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_11.png", full: "Img/Proyectos/Branding/Lyngard/L_11.png", caption: "Thank you letter for backers." },
-            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_2.png", full: "Img/Proyectos/Branding/Lyngard/L_2.png", caption: "Kickstarter icon: Early tier rewards [Early Bird]." },
-            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_3.png", full: "Img/Proyectos/Branding/Lyngard/L_3.png", caption: "Kickstarter icon: Collector's rewards [Collector's Edition]." },
-            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_4.png", full: "Img/Proyectos/Branding/Lyngard/L_4.png", caption: "Kickstarter icon: Exclusive in-game rewards [Mind Master]." },
-            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_10.png", full: "Img/Proyectos/Branding/Lyngard/L_10.png", caption: "Kickstarter reward: Keychain." },
-            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_5.png", full: "Img/Proyectos/Branding/Lyngard/L_5.png", caption: "Kickstarter reward: Digital version of the game [Steam Key]." },
-            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_6.png", full: "Img/Proyectos/Branding/Lyngard/L_6.png", caption: "Kickstarter reward: Physical version of the game [Cassette USB drive]." },
-            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_7.png", full: "Img/Proyectos/Branding/Lyngard/L_7.png", caption: "Kickstarter reward: Game soundtrack vinyl record." },
-            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_8.png", full: "Img/Proyectos/Branding/Lyngard/L_8.png", caption: "Kickstarter reward: Game soundtrack CD." },
-            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_9.png", full: "Img/Proyectos/Branding/Lyngard/L_9.png", caption: "Kickstarter reward: Map of Lyngård highlighting key locations." },
-            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_14.png", full: "Img/Proyectos/Branding/Lyngard/L_14.png", caption: "Overview of all graphic assets as displayed on Kickstarter." }
+           { src: "Img/Proyectos/Branding/Lyngard/Lyngard_0.png", full: "Img/Proyectos/Branding/Lyngard/L_0.png", caption: "Untextured logo." },
+{ src: "Img/Proyectos/Branding/Lyngard/Lyngard_01.png", full: "Img/Proyectos/Branding/Lyngard/L_01.png", caption: "Isotype." },
+{ src: "Img/Proyectos/Branding/Lyngard/Lyngard_1.png", full: "Img/Proyectos/Branding/Lyngard/L_1.png", caption: "Main image for the Kickstarter crowdfunding campaign." },
+{ src: "Img/Proyectos/Branding/Lyngard/Lyngard_11.png", full: "Img/Proyectos/Branding/Lyngard/L_11.png", caption: "Thank you letter for backers." },
+{ src: "Img/Proyectos/Branding/Lyngard/Lyngard_2.png", full: "Img/Proyectos/Branding/Lyngard/L_2.png", caption: "Kickstarter icon: Early tier rewards [Early Bird]." },
+{ src: "Img/Proyectos/Branding/Lyngard/Lyngard_3.png", full: "Img/Proyectos/Branding/Lyngard/L_3.png", caption: "Kickstarter icon: Collector's rewards [Collector's Edition]." },
+{ src: "Img/Proyectos/Branding/Lyngard/Lyngard_4.png", full: "Img/Proyectos/Branding/Lyngard/L_4.png", caption: "Kickstarter icon: Exclusive in-game rewards [Mind Master]." },
+{ src: "Img/Proyectos/Branding/Lyngard/Lyngard_10.png", full: "Img/Proyectos/Branding/Lyngard/L_10.png", caption: "Kickstarter reward: Keychain." },
+{ src: "Img/Proyectos/Branding/Lyngard/Lyngard_5.png", full: "Img/Proyectos/Branding/Lyngard/L_5.png", caption: "Kickstarter reward: Digital version of the game [Steam Key]." },
+{ src: "Img/Proyectos/Branding/Lyngard/Lyngard_6.png", full: "Img/Proyectos/Branding/Lyngard/L_6.png", caption: "Kickstarter reward: Physical version of the game [Cassette USB drive]." },
+{ src: "Img/Proyectos/Branding/Lyngard/Lyngard_7.png", full: "Img/Proyectos/Branding/Lyngard/L_7.png", caption: "Kickstarter reward: Game soundtrack vinyl record." },
+{ src: "Img/Proyectos/Branding/Lyngard/Lyngard_8.png", full: "Img/Proyectos/Branding/Lyngard/L_8.png", caption: "Kickstarter reward: Game soundtrack CD." },
+{ src: "Img/Proyectos/Branding/Lyngard/Lyngard_9.png", full: "Img/Proyectos/Branding/Lyngard/L_9.png", caption: "Kickstarter reward: Map of Lyngård highlighting key locations." },
+{ src: "Img/Proyectos/Branding/Lyngard/Lyngard_14.png", full: "Img/Proyectos/Branding/Lyngard/L_14.png", caption: "Overview of all graphic assets as displayed on Kickstarter." }
         ]
     },
     UV: {
         title: "Consell de l'Estudiantat",
         subtitle: `
             <div class="modal-project-summary">
-                <p>Creative ecosystem that evolves a <strong>psychological horror video game</strong> into a solid brand. It originates from a playable pixel art demo (programmed by me) that explores guilt and escapism on a fictional Norwegian island in 1998.</p>
+                <p>Ecosistema creativo que evoluciona un <strong>videojuego de terror psicológico</strong> hacia una marca sólida. El origen es una demo jugable en pixel art (programada por mí) que explora la culpa y la evasión en una isla fictica noruega de 1998.</p>
             </div>
 
             <div class="modal-quick-facts">
                 <div class="fact-col">
-                    <span class="fact-label">Role</span>
-                    <span class="fact-value">Art Direction · Branding · Crowdfunding campaign</span>
+                    <span class="fact-label">Rol</span>
+                    <span class="fact-value">Dirección de arte · Branding · Campaña crowdfunding</span>
                 </div>
                 <div class="fact-col">
-                    <span class="fact-label">Type</span>
-                    <span class="fact-value">Personal project / Bachelor's Thesis</span>
+                    <span class="fact-label">Tipo</span>
+                    <span class="fact-value">Proyecto personal / TFG</span>
                 </div>
                 <div class="fact-col">
-                    <span class="fact-label">Tools</span>
+                    <span class="fact-label">Herramientas</span>
                     <span class="fact-value">Illustrator · Photoshop · Clip Studio </span>
                 </div>
                 <div class="fact-col">
-                    <span class="fact-label">Duration</span>
-                    <span class="fact-value">6 months</span>
+                    <span class="fact-label">Duración</span>
+                    <span class="fact-value">6 meses</span>
                 </div>
             </div>
 
             <figure class="modal-featured-media">
-                <img src="Img/Proyectos/Branding/Lyngard/Lyngard_13.png" alt="Lyngård game environment in pixel art">
-                <figcaption class="modal-caption">Outdoor setting in pixel art and lighting integration in GDevelop for the playable demo.</figcaption>
+                <img src="Img/Proyectos/Branding/Lyngard/Lyngard_13.png" alt="Entorno del juego Lyngård en pixel art">
+                <figcaption class="modal-caption">Escenario exterior en pixel art e integración de iluminación en GDevelop para la demo jugable.</figcaption>
             </figure>
 
             <div class="modal-project-details">
-                <p>To make this universe viable, <strong>I directed the entire visual identity and communication of the project</strong>. This ranges from creating the logo and typographic system to designing the graphic materials required to orchestrate a crowdfunding campaign.</p>
+                <p>Para viabilizar este universo, <strong>dirigí toda la identidad visual y la comunicación del proyecto</strong>. Esto abarca desde la creación del logotipo y el sistema tipográfico, hasta el material gráfico necesario para orquestar una campaña de crowdfunding.</p>
                 
-                <p>Beyond the interactive proof of concept, this work demonstrates my ability to provide a product with a professional graphic package and design its fundraising strategy.</p>
+                <p>Más allá de la prueba de concepto interactiva, este trabajo demuestra mi capacidad para dotar a un producto de un empaque gráfico profesional y diseñar su estrategia de mecenazgo.</p>
                 
                 <div class="modal-results">
-                    <h4>Key results:</h4>
+                    <h4>Resultados clave:</h4>
                     <ul>
-                        <li>Brand identity manual.</li>
-                        <li>Custom typographic system.</li>
-                        <li>Crowdfunding campaign design.</li>
-                        <li>Graphic assets and promotional material.</li>
-                        <li>Backer reward creation.</li>
+                        <li>Manual de identidad corporativa.</li>
+                        <li>Sistema tipográfico propio.</li>
+                        <li>Diseño de campaña de crowdfunding.</li>
+                        <li>Assets gráficos y material promocional.</li>
+                        <li>Creación de recompensas para los mecenas.</li>
                     </ul>
                 </div>
             </div>
         `,
         images: [
-            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_0.png", full: "Img/Proyectos/Branding/Lyngard/L_0.png", caption: "Textured & untextured logo." },
-            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_01.png", full: "Img/Proyectos/Branding/Lyngard/L_01.png", caption: "Isotype." },
-            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_1.png", full: "Img/Proyectos/Branding/Lyngard/L_1.png", caption: "Main image for the Kickstarter crowdfunding campaign." },
-            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_11.png", full: "Img/Proyectos/Branding/Lyngard/L_11.png", caption: "Thank you letter for backers." },
-            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_2.png", full: "Img/Proyectos/Branding/Lyngard/L_2.png", caption: "Kickstarter icon: Early tier rewards [Early Bird]." },
-            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_3.png", full: "Img/Proyectos/Branding/Lyngard/L_3.png", caption: "Kickstarter icon: Collector's rewards [Collector's Edition]." },
-            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_4.png", full: "Img/Proyectos/Branding/Lyngard/L_4.png", caption: "Kickstarter icon: Exclusive in-game rewards [Mind Master]." },
-            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_10.png", full: "Img/Proyectos/Branding/Lyngard/L_10.png", caption: "Kickstarter reward: Keychain." },
-            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_5.png", full: "Img/Proyectos/Branding/Lyngard/L_5.png", caption: "Kickstarter reward: Digital version of the game [Steam Key]." },
-            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_6.png", full: "Img/Proyectos/Branding/Lyngard/L_6.png", caption: "Kickstarter reward: Physical version of the game [Cassette USB drive]." },
-            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_7.png", full: "Img/Proyectos/Branding/Lyngard/L_7.png", caption: "Kickstarter reward: Game soundtrack vinyl record." },
-            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_8.png", full: "Img/Proyectos/Branding/Lyngard/L_8.png", caption: "Kickstarter reward: Game soundtrack CD." },
-            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_9.png", full: "Img/Proyectos/Branding/Lyngard/L_9.png", caption: "Kickstarter reward: Map of Lyngård highlighting key locations." },
-            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_14.png", full: "Img/Proyectos/Branding/Lyngard/L_14.png", caption: "Overview of all graphic assets as displayed on Kickstarter." }
+            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_0.png", full: "Img/Proyectos/Branding/Lyngard/L_0.png", caption: "Logotipo con textura & sin textura." },
+     
         ]
     },
     LEO: {
-        title: "LEO",
+       title: "LEO",
         subtitle: `
             <div class="modal-project-summary">
                 <p>Redesign of the iconic <strong>Thai beer LEO</strong> to elevate its brand perception and connect with new generations. The proposal transforms the iconic leopard spots into a <strong>dynamic and flexible graphic system</strong>: a variable color code on the label that brings modernity and clearly differentiates each beer variety.</p>
@@ -249,18 +240,19 @@ const PROJECTS_DATA = {
                         <li>Packaging design for bottles, cans, and multipacks.</li>
                         <li>Graphic assets and promotional material for point of sale.</li>
                     </ul>
+                    </ul>
                 </div>
             </div>
         `,
         images: [
-            { src: "Img/Proyectos/Branding/LEO/LEO_5.png", full: "Img/Proyectos/Branding/LEO/LEO_05.png", caption: "LEO beer mockup with its variants." },
-            { src: "Img/Proyectos/Branding/LEO/LEO_2.png", full: "Img/Proyectos/Branding/LEO/LEO_02.png", caption: "LEO Beer label: Lager." },
-            { src: "Img/Proyectos/Branding/LEO/LEO_3.png", full: "Img/Proyectos/Branding/LEO/LEO_03.png", caption: "LEO Beer label: Lager Pilsen." },
-            { src: "Img/Proyectos/Branding/LEO/LEO_4.png", full: "Img/Proyectos/Branding/LEO/LEO_04.png", caption: "LEO label: Stout." }
+           { src: "Img/Proyectos/Branding/LEO/LEO_5.png", full: "Img/Proyectos/Branding/LEO/LEO_05.png", caption: "LEO beer mockup with its variants." },
+{ src: "Img/Proyectos/Branding/LEO/LEO_2.png", full: "Img/Proyectos/Branding/LEO/LEO_02.png", caption: "LEO Beer label: Lager." },
+{ src: "Img/Proyectos/Branding/LEO/LEO_3.png", full: "Img/Proyectos/Branding/LEO/LEO_03.png", caption: "LEO Beer label: Lager Pilsen." },
+{ src: "Img/Proyectos/Branding/LEO/LEO_4.png", full: "Img/Proyectos/Branding/LEO/LEO_04.png", caption: "LEO label: Stout." }
         ]
     },
     NIUBO: {
-        title: "NIUBÓ",
+       title: "NIUBÓ",
         subtitle: `
             <div class="modal-project-summary">
                 <p>Niubó is a <strong>comprehensive application</strong> designed to revolutionize animal management and care, creating a direct bridge connecting pet owners, veterinary clinics, and animal shelters.</p>
@@ -317,7 +309,7 @@ const PROJECTS_DATA = {
             { src: "Img/Proyectos/UX/NIUBO/niubo_05.png", full: "Img/Proyectos/UX/NIUBO/niubo_05.png", caption: "NIUBÓ Community" }
         ]
     },
-    Mareabrumosa: {
+   Mareabrumosa: {
         title: "Marea Brumosa",
         subtitle: `
             <div class="modal-project-summary">
@@ -370,7 +362,7 @@ const PROJECTS_DATA = {
         ]
     },
     AC: {
-        title: "Animal Crossing: New Horizons",
+     title: "Animal Crossing: New Horizons",
         subtitle: `
             <div class="modal-project-summary">
                 <p>This loading screen overlay was created for streaming the video game <strong>Animal Crossing: New Horizons</strong>, featuring iconic elements from the game such as the beach, seashells, etc.</p>
@@ -421,7 +413,7 @@ const PROJECTS_DATA = {
         ]
     },
     BG3: {
-        title: "Baldur's Gate 3",
+      title: "Baldur's Gate 3",
         subtitle: `
             <div class="modal-project-summary">
                 <p>This project is conceived as a comprehensive atmospheric piece for <strong>Baldur's Gate 3</strong>. The design is inspired by the game's dark and epic aesthetic, merging iconic elements from its narrative to transport the viewer directly into the heart of the adventure.</p>
@@ -475,7 +467,7 @@ const PROJECTS_DATA = {
             { src: "Img/Proyectos/Overlay/BG3/BG3_04.png", full: "Img/Proyectos/Overlay/BG3/BG3_4.png", caption: "Baldur's Gate 3 overlay variations (with or without camera)" },
         ]
     },
-    PICAPICA: {
+   PICAPICA: {
         title: "PICA PICA Festival",
         subtitle: `
             <div class="modal-project-summary">
@@ -514,10 +506,10 @@ const PROJECTS_DATA = {
                 <div class="modal-results">
                     <h4>Key results:</h4>
                     <ul>
-                        <li>Conceptualization and comprehensive design of the PICA PICA festival identity and posters.</li>
-                        <li>Creation of an approachable and friendly illustrative universe to foster a sense of community.</li>
-                        <li>Application of digital illustration techniques to promote cultural and educational events.</li>
-                        <li>Development of promotional graphic assets tailored for both physical and digital media.</li>
+                        <li>Comprehensive conceptualization and design of "Baldur's Gate 3 Overlay", including the active streaming version and the break screen.</li>
+                        <li>Achievement of high visual and aesthetic fidelity to the original video game, making it the project with the highest technical quality to date.</li>
+                        <li>Advanced mastery of digital illustration applied to creating complex, atmospheric settings.</li>
+                        <li>Optimization of visual storytelling to ensure an immersive experience, during both high-action moments and break transitions.</li>
                     </ul>
                 </div>
             </div>
@@ -582,61 +574,61 @@ const PROJECTS_DATA = {
         ]
     },
     Revista: {
-        title: "FRANÇOIS TRUFFAUT MAGAZINE",
+        title: "REVISTA François Truffaut",
         pdf: "PDFs/Serrulla Nadia_Revista.pdf",
-        pdfTitle: "François Truffaut Magazine [PDF]",
+        pdfTitle: "Revista François Truffaut [PDF]",
         subtitle: `
             <div class="modal-project-summary">
-                <p>In our Editorial Design class, we were tasked with creating a concise magazine dedicated to the celebrated filmmaker <strong>François Truffaut</strong>.</p>
+                <p>En la clase de Editorial, se nos encargó crear una revista sencilla sobre el autor cineasta <strong>François Truffaut</strong>.</p>
             </div>
 
             <div class="modal-quick-facts">
                 <div class="fact-col">
-                    <span class="fact-label">Role</span>
-                    <span class="fact-value">Editorial Design </span>
+                    <span class="fact-label">Rol</span>
+                    <span class="fact-value">Editorial </span>
                 </div>
                 <div class="fact-col">
-                    <span class="fact-label">Type</span>
-                    <span class="fact-value">University project</span>
+                    <span class="fact-label">Tipo</span>
+                    <span class="fact-value">Universitario</span>
                 </div>
                 <div class="fact-col">
-                    <span class="fact-label">Tools</span>
-                    <span class="fact-value">Photoshop · Illustrator · InDesign</span>
+                    <span class="fact-label">Herramientas</span>
+                    <span class="fact-value">Photoshop · Illustrator · Indesign</span>
                 </div>
                 <div class="fact-col">
-                    <span class="fact-label">Duration</span>
-                    <span class="fact-value">1 week</span>
+                    <span class="fact-label">Duración</span>
+                    <span class="fact-value">1 semana</span>
                 </div>
             </div>
 
             <figure class="modal-featured-media">
-                <img src="Img/Proyectos/Editorial/Revista/R_1.png" alt="Mockup of magazine pages">
-                <figcaption class="modal-caption">Spread of magazine pages</figcaption>
+                <img src="Img/Proyectos/Editorial/Revista/R_1.png" alt="Mockup de algunas páginas de la revista">
+                <figcaption class="modal-caption">Parte de unas páginas de la revista</figcaption>
             </figure>
 
             <div class="modal-project-details">
-                <p>This editorial design project involved the layout and conceptualization of a monographic magazine focused on filmmaker François Truffaut and the aesthetics of the Nouvelle Vague. The main technical challenge of the assignment was the scarcity of text and iconography provided in the course, which required a design strategy capable of optimizing limited resources without losing impact or informational rigor.</p>
+                <p>Este proyecto de diseño editorial consistió en la maquetación y conceptualización de una revista monográﬁca centrada en la figura del cineasta François Truffaut y la estética de la Nouvelle Vague. El principal reto técnico del encargo residía en la escasez de material textual e iconográfico proporcionado en la asignatura, lo que exigió una estrategia de diseño capaz de optimizar recursos limitados sin perder impacto ni rigor informativo.</p>
 
-                <p>To overcome this, we opted for a page architecture based on the expressive use of typography—combining classic serif fonts with bold sans-serif headlines—deliberate use of whitespace as a structural element to provide air and elegance, and high-contrast archiving image treatments in imperial blue to evoke the cinematic atmosphere of the 1960s.</p>
+                <p>Para solventarlo, se apostó por una arquitectura de página basada en el uso expresivo de la tipografía —combinando fuentes serif clásicas con titulares rotundos en sans serif—, un uso deliberado del espacio blanco como elemento estructural para otorgar aire y elegancia, y el tratamiento de imágenes de archivo en alto contraste a un azul imperial para evocar la atmósfera cinematográfica de los años 60.</p>
                 
                 <div class="modal-results">
-                    <h4>Key results:</h4>
+                    <h4>Resultados clave:</h4>
                     <ul>
-                        <li>Maximization of limited content.</li>
-                        <li>Visual storytelling tailored to the subject.</li>
-                        <li>Efficient whitespace management.</li>
-                        <li>Art direction and image treatment.</li>
-                        <li>Resolution of production limitations.</li>
+                        <li>Maximización de contenido limitado.</li>
+                        <li>Narrativa visual adaptada al tema.</li>
+                        <li>Gestión eficiente del espacio en blanco.</li>
+                        <li>Dirección de arte y tratamiento de imagen.</li>
+                        <li>Resolución de limitaciones de producción.</li>
                     </ul>
                 </div>
             </div>
         `,
         images: [
-            { src: "Img/Proyectos/Editorial/Revista/R_2.png", full: "Img/Proyectos/Editorial/Revista/R_02.png", caption: "Magazine cover." },
+            { src: "Img/Proyectos/Editorial/Revista/R_2.png", full: "Img/Proyectos/Editorial/Revista/R_02.png", caption: "Portada de la revista." },
         ]
     },
     Lambda: {
-        title: "LAMBDA",
+       title: "LAMBDA",
         subtitle: `
             <div class="modal-project-summary">
                 <p>In one of my communication courses, we were tasked with creating a real campaign for the organization <strong>LAMBDA</strong>.</p>
@@ -856,7 +848,7 @@ function initLoading() {
             e.preventDefault();
 
             const titleSpan = element.querySelector(".project-title");
-            const titleText = titleSpan ? titleSpan.textContent.trim() : "LOADING...";
+            const titleText = titleSpan ? titleSpan.textContent.trim() : "CARGANDO...";
 
             if (loadingTitle) loadingTitle.textContent = titleText;
 
@@ -933,10 +925,6 @@ function initGalleryHover() {
 ÓRBITA ARRASTRABLE
 =========================================================*/
 function initSpencerOrbit() {
-    if (window.innerWidth <= 768) {
-        return;
-    }
-
     const viewport = document.getElementById("orbit-viewport") || document.querySelector(".spencer-orbit-viewport");
     const cards = document.querySelectorAll(".spencer-orbit-card");
 
@@ -1119,7 +1107,7 @@ function openModal(projectId) {
     
     let pdfButtonHTML = "";
     if (data.pdf) {
-        const pdfText = data.pdfTitle || "Brand Guidelines [PDF]";
+        const pdfText = data.pdfTitle || "Manual de Identidad [PDF]";
         pdfButtonHTML = `
             <div class="modal-pdf-container">
                 <a href="${data.pdf}" target="_blank" rel="noopener noreferrer" class="modal-pdf-btn">
@@ -1162,7 +1150,7 @@ function openModal(projectId) {
             const img = document.createElement("img");
             img.src = imgSrc;
             img.dataset.full = imgFull;
-            img.alt = `${data.title} - Image ${index + 1}`;
+            img.alt = `${data.title} - Imagen ${index + 1}`;
             card.appendChild(img);
         }
 
@@ -1239,6 +1227,9 @@ function initLightbox() {
     });
 }
 
+/*=========================================================
+ANIMACIÓN CV: CÍRCULOS DE HABILIDADES
+=========================================================*/
 function initCVAnimation() {
     const circles = document.querySelectorAll('.circle-item');
     if (!circles.length) return;
@@ -1249,18 +1240,21 @@ function initCVAnimation() {
                 const item = entry.target;
                 const circleProgress = item.querySelector('.circle-progress');
                 if (circleProgress) {
-                    const percent = parseInt(item.getAttribute('data-percent'), 10) || 0;
-                    const radius = circleProgress.r.baseVal.value;
-                    const circumference = 2 * Math.PI * radius;
+                    const percent = parseInt(item.getAttribute('data-percent'), 10);
+                    const circumference = 283;
                     const offset = circumference - (percent / 100) * circumference;
                     
-                    circleProgress.style.strokeDasharray = `${circumference} ${circumference}`;
                     circleProgress.style.strokeDashoffset = offset;
+                    item.classList.add('animado');
                 }
                 observer.unobserve(item);
             }
         });
-    }, { threshold: 0.2 });
+    }, {
+        threshold: 0.3 
+    });
 
-    circles.forEach(circle => circleObserver.observe(circle));
+    circles.forEach(circle => {
+        circleObserver.observe(circle);
+    });
 }
