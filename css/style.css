@@ -1227,13 +1227,11 @@ MODAL FLOTANTE Y GALERÍA DE CASO DE ESTUDIO
     image-rendering: crisp-edges;
 }
 .modal-card video {
-.modal-card video {
     width: 100%;
     height: 100%;
     object-fit: contain;
     display: block;
     border-radius: inherit;
-}
 }
 
 .modal-card.full-banner,

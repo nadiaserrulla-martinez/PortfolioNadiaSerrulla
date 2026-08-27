@@ -933,6 +933,10 @@ function initGalleryHover() {
 ÓRBITA ARRASTRABLE
 =========================================================*/
 function initSpencerOrbit() {
+    if (window.innerWidth <= 768) {
+        return;
+    }
+
     const viewport = document.getElementById("orbit-viewport") || document.querySelector(".spencer-orbit-viewport");
     const cards = document.querySelectorAll(".spencer-orbit-card");
 
@@ -1235,9 +1239,7 @@ function initLightbox() {
     });
 }
 
-/*=========================================================
-ANIMACIÓN CV: CÍRCULOS DE HABILIDADES
-=========================================================*/
+
 function initCVAnimation() {
     const circles = document.querySelectorAll('.circle-item');
     if (!circles.length) return;
@@ -1248,21 +1250,18 @@ function initCVAnimation() {
                 const item = entry.target;
                 const circleProgress = item.querySelector('.circle-progress');
                 if (circleProgress) {
-                    const percent = parseInt(item.getAttribute('data-percent'), 10);
-                    const circumference = 283;
+                    const percent = parseInt(item.getAttribute('data-percent'), 10) || 0;
+                    const radius = circleProgress.r.baseVal.value;
+                    const circumference = 2 * Math.PI * radius;
                     const offset = circumference - (percent / 100) * circumference;
                     
+                    circleProgress.style.strokeDasharray = `${circumference} ${circumference}`;
                     circleProgress.style.strokeDashoffset = offset;
-                    item.classList.add('animado');
                 }
                 observer.unobserve(item);
             }
         });
-    }, {
-        threshold: 0.3 
-    });
+    }, { threshold: 0.2 });
 
-    circles.forEach(circle => {
-        circleObserver.observe(circle);
-    });
+    circles.forEach(circle => circleObserver.observe(circle));
 }
