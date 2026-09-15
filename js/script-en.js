@@ -41,42 +41,39 @@ const PROJECTS_DATA = {
             </div>
 
            <figure class="modal-featured-media">
-    <img src="Img/Proyectos/Branding/BITbyBIT/BIT_01.png" alt="Negative logo">
-    <figcaption class="modal-caption">Negative logo.</figcaption>
-</figure>
+                <img src="Img/Proyectos/Branding/BITbyBIT/BIT_01.png" alt="Negative logo">
+                <figcaption class="modal-caption">Negative logo.</figcaption>
+            </figure>
 
-<div class="modal-project-details">
-    <p>Bit by Bit is the <strong>rebranding of the Museo del Recreativo</strong>, a proposal created to evolve the <strong>historical preservation of video games</strong> into a living, interactive experience. The project updates the institution's identity to <strong>bridge the nostalgia of traditional arcades with contemporary gaming trends</strong>. Through playful naming that speaks to technological language and a new brand architecture, the proposal integrates tournaments, current-generation consoles, and dynamic exhibitions that combine <strong>the past and present of the industry</strong>.</p>
-    
-    <p>To drive this transformation, I led the rebranding strategy and the comprehensive design of the <strong>new brand experience</strong>. This ranges from the <strong>conceptualization of the naming and visual identity</strong> to the development of the <strong>graphic system for physical exhibitions, interactive spaces, and the museum's communication materials</strong>.</p>
+            <div class="modal-project-details">
+                <p>Bit by Bit is the <strong>rebranding of the Museo del Recreativo</strong>, a proposal created to evolve the <strong>historical preservation of video games</strong> into a living, interactive experience. The project updates the institution's identity to <strong>bridge the nostalgia of traditional arcades with contemporary gaming trends</strong>. Through playful naming that speaks to technological language and a new brand architecture, the proposal integrates tournaments, current-generation consoles, and dynamic exhibitions that combine <strong>the past and present of the industry</strong>.</p>
+                
+                <p>To drive this transformation, I led the rebranding strategy and the comprehensive design of the <strong>new brand experience</strong>. This ranges from the <strong>conceptualization of the naming and visual identity</strong> to the development of the <strong>graphic system for physical exhibitions, interactive spaces, and the museum's communication materials</strong>.</p>
 
-    <p>Beyond the visual redesign, this work demonstrates my ability to reposition a cultural entity, transforming a static collection of objects into a dynamic entertainment space capable of engaging an intergenerational audience.</p>
-    
-    <div class="modal-results">
-        <h4>Key results:</h4>
-        <ul>
-            <li>Brand strategy and naming development (Bit by Bit).</li>
-            <li>Visual identity system and adaptive graphic language.</li>
-            <li>Conceptualization of the visitor experience and interactive areas.</li>
-            <li>Signage and graphic materials for the exhibition space.</li>
-            <li>Promotional assets for communication campaigns and events.</li>
-        </ul>
-    </div>
-</div>
+                <p>Beyond the visual redesign, this work demonstrates my ability to reposition a cultural entity, transforming a static collection of objects into a dynamic entertainment space capable of engaging an intergenerational audience.</p>
+                
+                <div class="modal-results">
+                    <h4>Key results:</h4>
+                    <ul>
+                        <li>Brand strategy and naming development (Bit by Bit).</li>
+                        <li>Visual identity system and adaptive graphic language.</li>
+                        <li>Conceptualization of the visitor experience and interactive areas.</li>
+                        <li>Signage and graphic materials for the exhibition space.</li>
+                        <li>Promotional assets for communication campaigns and events.</li>
                     </ul>
                 </div>
             </div>
         `,
         images: [
-     { src: "Img/Proyectos/Branding/BITbyBIT/BIT_03.png", full: "Img/Proyectos/Branding/BITbyBIT/BIT_03.png", caption: "BIT by BIT merchandise." },
-{ src: "Img/Proyectos/Branding/BITbyBIT/BIT_04.png", full: "Img/Proyectos/Branding/BITbyBIT/BIT_04.png", caption: "BIT by BIT brochure." },
-{ src: "Img/Proyectos/Branding/BITbyBIT/BIT_05.png", full: "Img/Proyectos/Branding/BITbyBIT/BIT_05.png", caption: "BIT by BIT billboard." },
-{ src: "Img/Proyectos/Branding/BITbyBIT/BIT_06.png", full: "Img/Proyectos/Branding/BITbyBIT/BIT_06.png", caption: "BIT by BIT website homepage." },
-{ src: "Img/Proyectos/Branding/BITbyBIT/BIT_07.png", full: "Img/Proyectos/Branding/BITbyBIT/BIT_07.png", caption: "Machine section on the BIT by BIT website." },
+            { src: "Img/Proyectos/Branding/BITbyBIT/BIT_03.png", full: "Img/Proyectos/Branding/BITbyBIT/BIT_03.png", caption: "BIT by BIT merchandise." },
+            { src: "Img/Proyectos/Branding/BITbyBIT/BIT_04.png", full: "Img/Proyectos/Branding/BITbyBIT/BIT_04.png", caption: "BIT by BIT brochure." },
+            { src: "Img/Proyectos/Branding/BITbyBIT/BIT_05.png", full: "Img/Proyectos/Branding/BITbyBIT/BIT_05.png", caption: "BIT by BIT billboard." },
+            { src: "Img/Proyectos/Branding/BITbyBIT/BIT_06.png", full: "Img/Proyectos/Branding/BITbyBIT/BIT_06.png", caption: "BIT by BIT website homepage." },
+            { src: "Img/Proyectos/Branding/BITbyBIT/BIT_07.png", full: "Img/Proyectos/Branding/BITbyBIT/BIT_07.png", caption: "Machine section on the BIT by BIT website." }
         ]
     },
     Lyngard: {
-      title: "LYNGÅRD",
+        title: "LYNGÅRD",
         pdf: "PDFs/Manual_Identidad_Lyngard.pdf",
         pdfTitle: "Brand Guidelines - Lyngård [PDF]",
         subtitle: `
@@ -126,20 +123,20 @@ const PROJECTS_DATA = {
             </div>
         `,
         images: [
-           { src: "Img/Proyectos/Branding/Lyngard/Lyngard_0.png", full: "Img/Proyectos/Branding/Lyngard/L_0.png", caption: "Untextured logo." },
-{ src: "Img/Proyectos/Branding/Lyngard/Lyngard_01.png", full: "Img/Proyectos/Branding/Lyngard/L_01.png", caption: "Isotype." },
-{ src: "Img/Proyectos/Branding/Lyngard/Lyngard_1.png", full: "Img/Proyectos/Branding/Lyngard/L_1.png", caption: "Main image for the Kickstarter crowdfunding campaign." },
-{ src: "Img/Proyectos/Branding/Lyngard/Lyngard_11.png", full: "Img/Proyectos/Branding/Lyngard/L_11.png", caption: "Thank you letter for backers." },
-{ src: "Img/Proyectos/Branding/Lyngard/Lyngard_2.png", full: "Img/Proyectos/Branding/Lyngard/L_2.png", caption: "Kickstarter icon: Early tier rewards [Early Bird]." },
-{ src: "Img/Proyectos/Branding/Lyngard/Lyngard_3.png", full: "Img/Proyectos/Branding/Lyngard/L_3.png", caption: "Kickstarter icon: Collector's rewards [Collector's Edition]." },
-{ src: "Img/Proyectos/Branding/Lyngard/Lyngard_4.png", full: "Img/Proyectos/Branding/Lyngard/L_4.png", caption: "Kickstarter icon: Exclusive in-game rewards [Mind Master]." },
-{ src: "Img/Proyectos/Branding/Lyngard/Lyngard_10.png", full: "Img/Proyectos/Branding/Lyngard/L_10.png", caption: "Kickstarter reward: Keychain." },
-{ src: "Img/Proyectos/Branding/Lyngard/Lyngard_5.png", full: "Img/Proyectos/Branding/Lyngard/L_5.png", caption: "Kickstarter reward: Digital version of the game [Steam Key]." },
-{ src: "Img/Proyectos/Branding/Lyngard/Lyngard_6.png", full: "Img/Proyectos/Branding/Lyngard/L_6.png", caption: "Kickstarter reward: Physical version of the game [Cassette USB drive]." },
-{ src: "Img/Proyectos/Branding/Lyngard/Lyngard_7.png", full: "Img/Proyectos/Branding/Lyngard/L_7.png", caption: "Kickstarter reward: Game soundtrack vinyl record." },
-{ src: "Img/Proyectos/Branding/Lyngard/Lyngard_8.png", full: "Img/Proyectos/Branding/Lyngard/L_8.png", caption: "Kickstarter reward: Game soundtrack CD." },
-{ src: "Img/Proyectos/Branding/Lyngard/Lyngard_9.png", full: "Img/Proyectos/Branding/Lyngard/L_9.png", caption: "Kickstarter reward: Map of Lyngård highlighting key locations." },
-{ src: "Img/Proyectos/Branding/Lyngard/Lyngard_14.png", full: "Img/Proyectos/Branding/Lyngard/L_14.png", caption: "Overview of all graphic assets as displayed on Kickstarter." }
+            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_0.png", full: "Img/Proyectos/Branding/Lyngard/L_0.png", caption: "Untextured logo." },
+            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_01.png", full: "Img/Proyectos/Branding/Lyngard/L_01.png", caption: "Isotype." },
+            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_1.png", full: "Img/Proyectos/Branding/Lyngard/L_1.png", caption: "Main image for the Kickstarter crowdfunding campaign." },
+            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_11.png", full: "Img/Proyectos/Branding/Lyngard/L_11.png", caption: "Thank you letter for backers." },
+            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_2.png", full: "Img/Proyectos/Branding/Lyngard/L_2.png", caption: "Kickstarter icon: Early tier rewards [Early Bird]." },
+            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_3.png", full: "Img/Proyectos/Branding/Lyngard/L_3.png", caption: "Kickstarter icon: Collector's rewards [Collector's Edition]." },
+            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_4.png", full: "Img/Proyectos/Branding/Lyngard/L_4.png", caption: "Kickstarter icon: Exclusive in-game rewards [Mind Master]." },
+            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_10.png", full: "Img/Proyectos/Branding/Lyngard/L_10.png", caption: "Kickstarter reward: Keychain." },
+            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_5.png", full: "Img/Proyectos/Branding/Lyngard/L_5.png", caption: "Kickstarter reward: Digital version of the game [Steam Key]." },
+            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_6.png", full: "Img/Proyectos/Branding/Lyngard/L_6.png", caption: "Kickstarter reward: Physical version of the game [Cassette USB drive]." },
+            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_7.png", full: "Img/Proyectos/Branding/Lyngard/L_7.png", caption: "Kickstarter reward: Game soundtrack vinyl record." },
+            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_8.png", full: "Img/Proyectos/Branding/Lyngard/L_8.png", caption: "Kickstarter reward: Game soundtrack CD." },
+            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_9.png", full: "Img/Proyectos/Branding/Lyngard/L_9.png", caption: "Kickstarter reward: Map of Lyngård highlighting key locations." },
+            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_14.png", full: "Img/Proyectos/Branding/Lyngard/L_14.png", caption: "Overview of all graphic assets as displayed on Kickstarter." }
         ]
     },
     UV: {
@@ -191,12 +188,11 @@ const PROJECTS_DATA = {
             </div>
         `,
         images: [
-            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_0.png", full: "Img/Proyectos/Branding/Lyngard/L_0.png", caption: "Logotipo con textura & sin textura." },
-     
+            { src: "Img/Proyectos/Branding/Lyngard/Lyngard_0.png", full: "Img/Proyectos/Branding/Lyngard/L_0.png", caption: "Logotipo con textura & sin textura." }
         ]
     },
     LEO: {
-       title: "LEO",
+        title: "LEO",
         subtitle: `
             <div class="modal-project-summary">
                 <p>Redesign of the iconic <strong>Thai beer LEO</strong> to elevate its brand perception and connect with new generations. The proposal transforms the iconic leopard spots into a <strong>dynamic and flexible graphic system</strong>: a variable color code on the label that brings modernity and clearly differentiates each beer variety.</p>
@@ -240,19 +236,18 @@ const PROJECTS_DATA = {
                         <li>Packaging design for bottles, cans, and multipacks.</li>
                         <li>Graphic assets and promotional material for point of sale.</li>
                     </ul>
-                    </ul>
                 </div>
             </div>
         `,
         images: [
-           { src: "Img/Proyectos/Branding/LEO/LEO_5.png", full: "Img/Proyectos/Branding/LEO/LEO_05.png", caption: "LEO beer mockup with its variants." },
-{ src: "Img/Proyectos/Branding/LEO/LEO_2.png", full: "Img/Proyectos/Branding/LEO/LEO_02.png", caption: "LEO Beer label: Lager." },
-{ src: "Img/Proyectos/Branding/LEO/LEO_3.png", full: "Img/Proyectos/Branding/LEO/LEO_03.png", caption: "LEO Beer label: Lager Pilsen." },
-{ src: "Img/Proyectos/Branding/LEO/LEO_4.png", full: "Img/Proyectos/Branding/LEO/LEO_04.png", caption: "LEO label: Stout." }
+            { src: "Img/Proyectos/Branding/LEO/LEO_5.png", full: "Img/Proyectos/Branding/LEO/LEO_05.png", caption: "LEO beer mockup with its variants." },
+            { src: "Img/Proyectos/Branding/LEO/Leo_2.png", full: "Img/Proyectos/Branding/LEO/LEO_02.png", caption: "LEO Beer label: Lager." },
+            { src: "Img/Proyectos/Branding/LEO/Leo_3.png", full: "Img/Proyectos/Branding/LEO/LEO_03.png", caption: "LEO Beer label: Lager Pilsen." },
+            { src: "Img/Proyectos/Branding/LEO/LEO_4.png", full: "Img/Proyectos/Branding/LEO/LEO_04.png", caption: "LEO label: Stout." }
         ]
     },
     NIUBO: {
-       title: "NIUBÓ",
+        title: "NIUBÓ",
         subtitle: `
             <div class="modal-project-summary">
                 <p>Niubó is a <strong>comprehensive application</strong> designed to revolutionize animal management and care, creating a direct bridge connecting pet owners, veterinary clinics, and animal shelters.</p>
@@ -309,7 +304,7 @@ const PROJECTS_DATA = {
             { src: "Img/Proyectos/UX/NIUBO/niubo_05.png", full: "Img/Proyectos/UX/NIUBO/niubo_05.png", caption: "NIUBÓ Community" }
         ]
     },
-   Mareabrumosa: {
+    Mareabrumosa: {
         title: "Marea Brumosa",
         subtitle: `
             <div class="modal-project-summary">
@@ -362,7 +357,7 @@ const PROJECTS_DATA = {
         ]
     },
     AC: {
-     title: "Animal Crossing: New Horizons",
+        title: "Animal Crossing: New Horizons",
         subtitle: `
             <div class="modal-project-summary">
                 <p>This loading screen overlay was created for streaming the video game <strong>Animal Crossing: New Horizons</strong>, featuring iconic elements from the game such as the beach, seashells, etc.</p>
@@ -409,11 +404,11 @@ const PROJECTS_DATA = {
             </div>
         `,
         images: [
-            { src: "Img/Proyectos/Overlay/AC/AC_01.png", full: "video/AC.mp4", caption: "Animal Crossing: New Horizons Overlay Video" },
+            { src: "Img/Proyectos/Overlay/AC/AC_01.png", full: "video/AC.mp4", caption: "Animal Crossing: New Horizons Overlay Video" }
         ]
     },
     BG3: {
-      title: "Baldur's Gate 3",
+        title: "Baldur's Gate 3",
         subtitle: `
             <div class="modal-project-summary">
                 <p>This project is conceived as a comprehensive atmospheric piece for <strong>Baldur's Gate 3</strong>. The design is inspired by the game's dark and epic aesthetic, merging iconic elements from its narrative to transport the viewer directly into the heart of the adventure.</p>
@@ -464,10 +459,10 @@ const PROJECTS_DATA = {
         images: [
             { src: "Img/Proyectos/Overlay/BG3/BG3_02.png", full: "Img/Proyectos/Overlay/BG3/BG3_2.png", caption: "Baldur's Gate 3 loading screen overlay" },
             { src: "Img/Proyectos/Overlay/BG3/BG3_03.png", full: "Img/Proyectos/Overlay/BG3/BG3_3.png", caption: "Baldur's Gate 3 overlay" },
-            { src: "Img/Proyectos/Overlay/BG3/BG3_04.png", full: "Img/Proyectos/Overlay/BG3/BG3_4.png", caption: "Baldur's Gate 3 overlay variations (with or without camera)" },
+            { src: "Img/Proyectos/Overlay/BG3/BG3_04.png", full: "Img/Proyectos/Overlay/BG3/BG3_4.png", caption: "Baldur's Gate 3 overlay variations (with or without camera)" }
         ]
     },
-   PICAPICA: {
+    PICAPICA: {
         title: "PICA PICA Festival",
         subtitle: `
             <div class="modal-project-summary">
@@ -515,7 +510,7 @@ const PROJECTS_DATA = {
             </div>
         `,
         images: [
-            { src: "Img/Proyectos/Carteleria/Cartel_PICAPICA_imagen_derecha.png", full: "Img/Proyectos/Carteleria/cartel PICA PICA.png", caption: "PICA PICA Festival Image" },
+            { src: "Img/Proyectos/Carteleria/Cartel_PICAPICA_imagen_derecha.png", full: "Img/Proyectos/Carteleria/cartel PICA PICA.png", caption: "PICA PICA Festival Image" }
         ]
     },
     Anuario: {
@@ -570,7 +565,7 @@ const PROJECTS_DATA = {
         `,
         images: [
             { src: "Img/Proyectos/Editorial/Anuario/Anuario_1.png", full: "Img/Proyectos/Editorial/Anuario/Anuario_01.png", caption: "Yearbook page mockup" },
-            { src: "Img/Proyectos/Editorial/Anuario/Anuario_2.png", full: "Img/Proyectos/Editorial/Anuario/Anuario_02.png", caption: "Yearbook cover" },
+            { src: "Img/Proyectos/Editorial/Anuario/Anuario_2.png", full: "Img/Proyectos/Editorial/Anuario/Anuario_02.png", caption: "Yearbook cover" }
         ]
     },
     Revista: {
@@ -607,7 +602,7 @@ const PROJECTS_DATA = {
             </figure>
 
             <div class="modal-project-details">
-                <p>Este proyecto de diseño editorial consistió en la maquetación y conceptualización de una revista monográﬁca centrada en la figura del cineasta François Truffaut y la estética de la Nouvelle Vague. El principal reto técnico del encargo residía en la escasez de material textual e iconográfico proporcionado en la asignatura, lo que exigió una estrategia de diseño capaz de optimizar recursos limitados sin perder impacto ni rigor informativo.</p>
+                <p>Este proyecto de diseño editorial consistió en la maquetación y conceptualización de una revista monográfica centrada en la figura del cineasta François Truffaut y la estética de la Nouvelle Vague. El principal reto técnico del encargo residía en la escasez de material textual e iconográfico proporcionado en la asignatura, lo que exigió una estrategia de diseño capaz de optimizar recursos limitados sin perder impacto ni rigor informativo.</p>
 
                 <p>Para solventarlo, se apostó por una arquitectura de página basada en el uso expresivo de la tipografía —combinando fuentes serif clásicas con titulares rotundos en sans serif—, un uso deliberado del espacio blanco como elemento estructural para otorgar aire y elegancia, y el tratamiento de imágenes de archivo en alto contraste a un azul imperial para evocar la atmósfera cinematográfica de los años 60.</p>
                 
@@ -624,11 +619,11 @@ const PROJECTS_DATA = {
             </div>
         `,
         images: [
-            { src: "Img/Proyectos/Editorial/Revista/R_2.png", full: "Img/Proyectos/Editorial/Revista/R_02.png", caption: "Portada de la revista." },
+            { src: "Img/Proyectos/Editorial/Revista/R_2.png", full: "Img/Proyectos/Editorial/Revista/R_02.png", caption: "Portada de la revista." }
         ]
     },
     Lambda: {
-       title: "LAMBDA",
+        title: "LAMBDA",
         subtitle: `
             <div class="modal-project-summary">
                 <p>In one of my communication courses, we were tasked with creating a real campaign for the organization <strong>LAMBDA</strong>.</p>
@@ -680,7 +675,7 @@ const PROJECTS_DATA = {
             { src: "Img/Proyectos/Campaña/Lambda/L_3.png", full: "Img/Proyectos/Campaña/Lambda/L_03.png", caption: "LAMBDA T-shirts." },
             { src: "Img/Proyectos/Campaña/Lambda/L_4.png", full: "Img/Proyectos/Campaña/Lambda/L_04.png", caption: "LAMBDA Stickers." },
             { src: "Img/Proyectos/Campaña/Lambda/L_5.png", full: "Img/Proyectos/Campaña/Lambda/L_05.png", caption: "LAMBDA Pins." },
-            { src: "Img/Proyectos/Campaña/Lambda/L_6.png", full: "Img/Proyectos/Campaña/Lambda/L_06.png", caption: "LAMBDA Bookmarks." },
+            { src: "Img/Proyectos/Campaña/Lambda/L_6.png", full: "Img/Proyectos/Campaña/Lambda/L_06.png", caption: "LAMBDA Bookmarks." }
         ]
     },
     Nits: {
@@ -735,7 +730,7 @@ const PROJECTS_DATA = {
             { src: "Img/Proyectos/Campaña/Nits/N_1.png", full: "Img/Proyectos/Campaña/Nits/N_01.png", caption: "Nits de Cinema Poster." },
             { src: "Img/Proyectos/Campaña/Nits/N_2.png", full: "Img/Proyectos/Campaña/Nits/N_02.png", caption: "Nits de Cinema Brochure." },
             { src: "Img/Proyectos/Campaña/Nits/N_3.png", full: "Img/Proyectos/Campaña/Nits/N_03.png", caption: "Nits de Cinema Tickets." },
-            { src: "Img/Proyectos/Campaña/Nits/N_4.png", full: "Img/Proyectos/Campaña/Nits/N_04.png", caption: "Nits de Cinema Banners." },
+            { src: "Img/Proyectos/Campaña/Nits/N_4.png", full: "Img/Proyectos/Campaña/Nits/N_04.png", caption: "Nits de Cinema Banners." }
         ]
     }
 };
@@ -831,18 +826,23 @@ function initReveal() {
 }
 
 /*=========================================================
-PANTALLA DE CARGA
+PANTALLA DE CARGA Y DISPARO DE MODALES
 =========================================================*/
 function initLoading() {
     const loadingScreen = document.getElementById("loading-screen");
     const loadingTitle = document.getElementById("loading-title");
 
-    if (!loadingScreen) return;
-
-    document.querySelectorAll(".gallery-row a").forEach((element) => {
+    document.querySelectorAll(".gallery-row a, .spencer-orbit-card a, [data-project]").forEach((element) => {
         element.addEventListener("click", (e) => {
-            const destination = element.getAttribute("href");
+            const projectId = element.getAttribute("data-project") || element.dataset.project;
+            
+            if (projectId && PROJECTS_DATA[projectId]) {
+                e.preventDefault();
+                openModal(projectId);
+                return;
+            }
 
+            const destination = element.getAttribute("href");
             if (!destination || destination === "#" || destination.startsWith("javascript")) return;
 
             e.preventDefault();
@@ -852,15 +852,17 @@ function initLoading() {
 
             if (loadingTitle) loadingTitle.textContent = titleText;
 
-            const barFill = loadingScreen.querySelector(".loading-bar-fill");
-            if (barFill) {
-                barFill.style.animation = 'none';
-                barFill.offsetHeight;
-                barFill.style.animation = '';
-            }
+            if (loadingScreen) {
+                const barFill = loadingScreen.querySelector(".loading-bar-fill");
+                if (barFill) {
+                    barFill.style.animation = 'none';
+                    barFill.offsetHeight;
+                    barFill.style.animation = '';
+                }
 
-            loadingScreen.classList.remove("hidden");
-            document.body.style.overflow = "hidden";
+                loadingScreen.classList.remove("hidden");
+                document.body.style.overflow = "hidden";
+            }
 
             setTimeout(() => {
                 window.location.href = destination;
@@ -891,181 +893,157 @@ function initGalleryHover() {
     const galleryRows = document.querySelectorAll(".gallery-row");
     const mainCards = document.querySelectorAll(".main-preview-card");
 
-    if (!galleryRows.length) return;
+    if (!galleryRows.length || !mainCards.length) return;
 
-    const activateCategory = (category) => {
-        galleryRows.forEach(row => {
-            if (row.dataset.category === category) {
-                row.classList.add("active");
-            } else {
-                row.classList.remove("active");
-            }
-        });
-
-        mainCards.forEach(card => {
-            if (card.id === `preview-${category}`) {
-                card.classList.add("active");
-            } else {
-                card.classList.remove("active");
-            }
-        });
-    };
-
-    activateCategory("branding");
-
-    galleryRows.forEach(row => {
+    galleryRows.forEach((row) => {
         row.addEventListener("mouseenter", () => {
+
+            // Obtener la categoría de la fila
             const category = row.dataset.category;
-            activateCategory(category);
+
+            // Buscar la imagen correspondiente
+            const targetCard = document.getElementById(`preview-${category}`);
+
+            // Si no existe, no hacemos nada
+            if (!targetCard) {
+                console.warn(
+                    `No se encontró la preview para la categoría: ${category}`
+                );
+                return;
+            }
+
+            // Quitar active de todas las filas
+            galleryRows.forEach((r) => {
+                r.classList.remove("active");
+            });
+
+            // Quitar active de todas las imágenes
+            mainCards.forEach((card) => {
+                card.classList.remove("active");
+            });
+
+            // Activar la fila actual
+            row.classList.add("active");
+
+            // Activar la imagen correspondiente
+            targetCard.classList.add("active");
         });
     });
 }
-
 /*=========================================================
-ÓRBITA ARRASTRABLE
+CARRUSEL ÓRBITA Y CONTROL DE FLECHAS EN MÓVIL
 =========================================================*/
 function initSpencerOrbit() {
-    const viewport = document.getElementById("orbit-viewport") || document.querySelector(".spencer-orbit-viewport");
+    const viewport = document.querySelector(".spencer-orbit-viewport");
     const cards = document.querySelectorAll(".spencer-orbit-card");
+    const prevBtn = document.querySelector(".orbit-prev");
+    const nextBtn = document.querySelector(".orbit-next");
 
     if (!viewport || !cards.length) return;
 
+    let currentIndex = 0;
     const totalCards = cards.length;
-    const angleStep = (Math.PI * 2) / totalCards;
-
-    let currentAngle = 0;
-    let targetAngle = 0;
     let isDragging = false;
     let startX = 0;
-    let dragDistance = 0;
-    let clickedProject = null;
+    let currentTranslate = 0;
 
-    let radiusX = totalCards === 2 ? Math.min(window.innerWidth * 0.15, 180) : Math.min(window.innerWidth * 0.38, 520);
-    let radiusY = 45;
-
-    window.addEventListener("resize", () => {
-        radiusX = totalCards === 2 ? Math.min(window.innerWidth * 0.15, 180) : Math.min(window.innerWidth * 0.38, 520);
-    });
-
-    function render() {
-        currentAngle += (targetAngle - currentAngle) * 0.12;
-
+    function updateOrbit() {
         cards.forEach((card, index) => {
-            let angle = currentAngle + (index * angleStep);
-            angle = Math.atan2(Math.sin(angle), Math.cos(angle));
+            const offset = (index - currentIndex + totalCards) % totalCards;
+            let normalizedOffset = offset;
 
-            let x, y, rotation, scale;
-
-            if (totalCards === 2) {
-                x = Math.cos(angle) * radiusX;
-                y = Math.sin(angle) * radiusY;
-                rotation = Math.sin(angle) * 12;
-                scale = Math.max(0.7, 1 - Math.abs(angle) * 0.22);
-            } else {
-                x = Math.sin(angle) * radiusX;
-                y = (1 - Math.cos(angle)) * radiusY;
-                rotation = Math.sin(angle) * 12;
-                scale = Math.max(0.7, 1 - Math.abs(angle) * 0.22);
+            if (offset > totalCards / 2) {
+                normalizedOffset = offset - totalCards;
             }
-            
-            const zIndex = Math.round(1000 - Math.abs(x));
-            
-            const visibilityThreshold = totalCards === 2 ? Math.PI : Math.PI * 0.8;
-            const opacity = Math.abs(angle) > visibilityThreshold ? 0 : 1;
 
-            card.style.transform = `translate3d(${x}px, ${y}px, 0px) scale(${scale}) rotate(${rotation}deg)`;
+            const absOffset = Math.abs(normalizedOffset);
+            const translateX = normalizedOffset * 220;
+            const scale = Math.max(0.7, 1 - absOffset * 0.15);
+            const zIndex = 100 - absOffset;
+            const opacity = absOffset > 2 ? 0 : Math.max(0.3, 1 - absOffset * 0.3);
+
+            card.style.transform = `translateX(${translateX}px) scale(${scale})`;
             card.style.zIndex = zIndex;
             card.style.opacity = opacity;
+            card.style.visibility = opacity === 0 ? "hidden" : "visible";
 
-            if (opacity === 0) {
-                card.style.pointerEvents = "none";
-                card.style.visibility = "hidden";
-            } else {
-                card.style.pointerEvents = "auto";
-                card.style.visibility = "visible";
-            }
-
-            if (Math.abs(angle) < angleStep * 0.45) {
+            if (normalizedOffset === 0) {
                 card.classList.add("is-center");
             } else {
                 card.classList.remove("is-center");
             }
         });
-
-        requestAnimationFrame(render);
     }
 
-    function snapToNearest() {
-        let closestIndex = 0;
-        let minDiff = Infinity;
+    function nextSlide() {
+        currentIndex = (currentIndex + 1) % totalCards;
+        updateOrbit();
+    }
 
-        cards.forEach((_, index) => {
-            let angle = targetAngle + (index * angleStep);
-            angle = Math.atan2(Math.sin(angle), Math.cos(angle));
+    function prevSlide() {
+        currentIndex = (currentIndex - 1 + totalCards) % totalCards;
+        updateOrbit();
+    }
 
-            if (Math.abs(angle) < minDiff) {
-                minDiff = Math.abs(angle);
-                closestIndex = index;
-            }
+    if (nextBtn) {
+        nextBtn.addEventListener("click", (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            nextSlide();
         });
-
-        const diffAngle = Math.atan2(
-            Math.sin(-closestIndex * angleStep - targetAngle),
-            Math.cos(-closestIndex * angleStep - targetAngle)
-        );
-        targetAngle += diffAngle;
     }
 
-    viewport.addEventListener("pointerdown", (e) => {
-        if (e.button && e.button !== 0) return;
-        
+    if (prevBtn) {
+        prevBtn.addEventListener("click", (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            prevSlide();
+        });
+    }
+
+    viewport.addEventListener("mousedown", (e) => {
         isDragging = true;
         startX = e.clientX;
-        dragDistance = 0;
-        
-        const targetLink = e.target.closest("a");
-        clickedProject = targetLink ? targetLink.getAttribute("data-project") : null;
-
         viewport.classList.add("is-dragging");
-        if (viewport.setPointerCapture) {
-            viewport.setPointerCapture(e.pointerId);
-        }
     });
 
-    viewport.addEventListener("pointermove", (e) => {
+    window.addEventListener("mousemove", (e) => {
         if (!isDragging) return;
-
-        const deltaX = e.clientX - startX;
-        dragDistance += Math.abs(deltaX);
-
-        targetAngle += deltaX * 0.0035;
-        startX = e.clientX;
+        currentTranslate = e.clientX - startX;
     });
 
-    viewport.addEventListener("pointerup", (e) => {
+    window.addEventListener("mouseup", () => {
         if (!isDragging) return;
         isDragging = false;
         viewport.classList.remove("is-dragging");
 
-        if (viewport.releasePointerCapture) {
-            try { viewport.releasePointerCapture(e.pointerId); } catch(err) {}
+        if (currentTranslate < -50) {
+            nextSlide();
+        } else if (currentTranslate > 50) {
+            prevSlide();
         }
+        currentTranslate = 0;
+    });
 
-        if (dragDistance < 8 && clickedProject) {
-            openModal(clickedProject);
-        } else {
-            snapToNearest();
+    viewport.addEventListener("touchstart", (e) => {
+        startX = e.touches[0].clientX;
+        isDragging = true;
+    }, { passive: true });
+
+    viewport.addEventListener("touchend", (e) => {
+        if (!isDragging) return;
+        isDragging = false;
+        const endX = e.changedTouches[0].clientX;
+        const diffX = endX - startX;
+
+        if (diffX < -40) {
+            nextSlide();
+        } else if (diffX > 40) {
+            prevSlide();
         }
     });
 
-    cards.forEach((card) => {
-        const link = card.querySelector("a");
-        if (link) {
-            link.addEventListener("click", (e) => e.preventDefault());
-        }
-    });
-
-    render();
+    updateOrbit();
 }
 
 /*=========================================================
@@ -1155,10 +1133,10 @@ function openModal(projectId) {
         }
 
         if (imgCaption) {
-            const captionEl = document.createElement("figcaption");
-            captionEl.className = "modal-caption";
-            captionEl.textContent = imgCaption;
-            card.appendChild(captionEl);
+            const captionText = document.createElement("figcaption");
+            captionText.className = "modal-caption";
+            captionText.textContent = imgCaption;
+            card.appendChild(captionText);
         }
 
         gallery.appendChild(card);

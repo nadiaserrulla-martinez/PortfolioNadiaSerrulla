@@ -40,19 +40,19 @@
     </div>
 
 
-    <!-- HEADER -->
-    <header id="header" class="header-inner-page">
+      <!-- HEADER -->
+    <header id="header">
         <div class="header-container">
             <a href="Index-en-DG.html" class="logo">
                 <img src="Img/Logotipo/logo diseño grafico.png" alt="Nadia Serrulla Logo">
             </a>
-            <nav class="menu">
+           <!-- <nav class="menu">
                 <div class="lang-switcher">
                     <a href="Index-es-DG.html">ES</a>
                     <span>/</span>
                     <a href="Index-en-DG.html" class="active">EN</a>
-                </div>
-                <a href="CV-en-DG.html" class="contact-button">CV</a>
+                </div> -->
+<a href="CV-en-DG.html" class="contact-button" aria-label="Learn more about me">CV</a>
             </nav>
         </div>
     </header>
@@ -66,52 +66,56 @@
         </div>
     </section>
 
-    <!-- DYNAMIC ORBIT GALLERY -->
-    <section class="spencer-orbit-section" data-reveal>
-        <div class="spencer-orbit-viewport" id="orbit-viewport">
-            
-            <!-- PROJECT 1 -->
-            <article class="spencer-orbit-card">
-                <a href="#" class="spencer-card-inner" data-project="Lyngard">
-                    <div class="spencer-card-image">
-                        <img src="Img/Proyectos/Branding/Lyngard/Lyngard_imagen_derecha.png" alt="Lyngård Bachelor's Thesis Project">
-                    </div>
-                    <div class="spencer-card-badge">LYNGÅRD: VISUAL IDENTITY & CROWDFUNDING FOR A VIDEO GAME</div>
-                </a>
-            </article>
+  <!-- DYNAMIC ORBIT GALLERY -->
+<section class="spencer-orbit-section" data-reveal>
+    <div class="spencer-orbit-viewport" id="orbit-viewport">
+        <!-- Controles de navegación en móvil -->
+        <button class="orbit-arrow orbit-prev" aria-label="Anterior">&larr;</button>
+        <button class="orbit-arrow orbit-next" aria-label="Siguiente">&rarr;</button>
+     
+        
+        <!-- PROJECT 1 -->
+        <article class="spencer-orbit-card">
+            <a href="#" class="spencer-card-inner" data-project="Lyngard">
+                <div class="spencer-card-image">
+                    <img src="Img/Proyectos/Branding/Lyngard/Lyngard_imagen_derecha.png" alt="Lyngård Bachelor's Thesis Project">
+                </div>
+                <div class="spencer-card-badge">LYNGÅRD: VISUAL IDENTITY & CROWDFUNDING FOR A VIDEO GAME</div>
+            </a>
+        </article>
 
-            <!-- PROJECT 2 -->
-            <article class="spencer-orbit-card">
-                <a href="#" class="spencer-card-inner" data-project="bitbybit">
-                    <div class="spencer-card-image">
-                        <img src="Img/Proyectos/Branding/BITbyBIT/BIT_1.png" alt="BitByBit Project">
-                    </div>
-                    <div class="spencer-card-badge">BITbyBIT: MUSEUM BRANDING</div>
-                </a>
-            </article>
+        <!-- PROJECT 2 -->
+        <article class="spencer-orbit-card">
+            <a href="#" class="spencer-card-inner" data-project="bitbybit">
+                <div class="spencer-card-image">
+                    <img src="Img/Proyectos/Branding/BITbyBIT/BIT_1.png" alt="BitByBit Project">
+                </div>
+                <div class="spencer-card-badge">BITbyBIT: MUSEUM BRANDING</div>
+            </a>
+        </article>
 
-            <!-- PROJECT 3 
-            <article class="spencer-orbit-card">
-                <a href="#" class="spencer-card-inner" data-project="UV">
-                    <div class="spencer-card-image">
-                        <img src="Img/Proyectos/Carteleria/Cartel_PICAPICA_imagen_derecha.png" alt="UV Student Council Project">
-                    </div>
-                    <div class="spencer-card-badge">UV STUDENT COUNCIL: VISUAL IDENTITY</div>
-                </a>
-            </article>-->
+        <!-- PROJECT 3 
+        <article class="spencer-orbit-card">
+            <a href="#" class="spencer-card-inner" data-project="UV">
+                <div class="spencer-card-image">
+                    <img src="Img/Proyectos/Carteleria/Cartel_PICAPICA_imagen_derecha.png" alt="UV Student Council Project">
+                </div>
+                <div class="spencer-card-badge">UV STUDENT COUNCIL: VISUAL IDENTITY</div>
+            </a>
+        </article>-->
 
-            <!-- PROJECT 4 -->
-            <article class="spencer-orbit-card">
-                <a href="#" class="spencer-card-inner" data-project="LEO">
-                    <div class="spencer-card-image">
-                        <img src="Img/Proyectos/Branding/LEO/LEO_01.png" alt="LEO visual identity redesign project">
-                    </div>
-                    <div class="spencer-card-badge">LEO: REBRANDING</div>
-                </a>
-            </article>
+        <!-- PROJECT 4 -->
+        <article class="spencer-orbit-card">
+            <a href="#" class="spencer-card-inner" data-project="LEO">
+                <div class="spencer-card-image">
+                    <img src="Img/Proyectos/Branding/LEO/LEO_01.png" alt="LEO visual identity redesign project">
+                </div>
+                <div class="spencer-card-badge">LEO: REBRANDING</div>
+            </a>
+        </article>
 
-        </div>
-    </section>
+    </div>
+</section>
 
     <!-- FLOATING PROJECT POPUP MODAL -->
     <div id="project-modal" class="modal-overlay" aria-hidden="true">
